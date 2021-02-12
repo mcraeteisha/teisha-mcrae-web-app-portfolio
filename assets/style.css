@@ -1,0 +1,196 @@
+body {
+    font-family: 'Epilogue', sans-serif;
+    background-color: #DCDCDC;
+    margin: 0 auto;
+    padding: 0px 10px 0px 10px;
+}
+
+header {
+    padding: 5px 20px 10px 0px;
+    background-color: #b4e0e8;
+    overflow: auto;
+    height: 140px;
+}
+
+.my-name {
+    display: inline-block;
+    font-size: 42px;
+    color: #ffffff;
+    background-color: #b67afe;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 30px;
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+    border-bottom: 2px solid #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pic-subtitle {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header-image {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    font-size: 38px;
+    color: #ffffff;
+    background-color: #b67afe;
+    padding: 20px;
+    margin-right: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article.section-titles {
+    height: 500px;
+    width: 250px;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+}
+
+.subtitle {
+    border-right: 6px solid #b67afe;
+    color: #b67afe;
+    font-size: 60px;
+    padding: 20px;
+    text-align: right;
+}
+
+
+.about-me-text {
+    display: inline-flex;
+    width: 60%;
+    margin-left: 20px;
+    line-height: 1.5 em;
+    flex-direction: column;
+}
+
+.project-pics {
+    display: inline-flex;
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 100px;
+    line-height: 1.5 em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+
+.figure {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    display: inline-flex;
+    width: 40%;
+}
+
+/*
+figure {
+    display: inline-block;
+}*/
+
+.big-picture {
+    width: 100%;
+    height: 250px;
+}
+
+
+.work-image {
+    border: 8px solid #b4e0e8;
+    width: 100%;
+    position: relative;
+}
+
+.fig-caption {
+    position: absolute;
+}
+
+figcaption {
+    display: inline-block;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #b4e0e8;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+ /*   
+    align-content: flex-start;
+    justify-content: space-evenly;
+    overflow: auto;
+    flex-wrap: wrap;
+    flex-basis: 0;
+    min-width: 100%;
+    flex-direction: column;
+}
+
+.aboutme {
+
+}
+
+.work, .mybio, .contactme 
+
+
+
+
+.work {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+
+figure {
+    flex: 1 0 0;
+}
+
+
+
+
+
+
+.contact-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*May need to make the flex direction column here OR treat the contact section the same way that the NAV list is treated. Make links a list. */
+
+.contactme a {
+    color: #b67afe;
+    border-bottom: 2px solid #b67afe;
+}
+
+
+
+
+/*May need to make the border-right that is on subtitles a border-left on containers instead.*/
