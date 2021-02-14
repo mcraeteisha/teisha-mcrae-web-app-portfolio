@@ -6,13 +6,13 @@ It's important for a developer to have a repository of work where potential empl
 This web application portfolio is where my past, current, and future projects will live. I look forward to adding more projects to my portfolio as I continue to learn and grow as a developer. I'm also excited to implement my learnings on my website so that I can add unique and intersting features and tailor it to match my personality.
 
 ## View My Work
-[Teisha McRae's Web App Portfolio](https://mcraeteisha.github.io/Horiseon-SEO-Accessibility-Website/)
+[Teisha McRae's Web App Portfolio](https://mcraeteisha.github.io/teisha-mcrae-web-app-portfolio/)
  
 ## Work Completed
 
 To complete this project, I created an HTML and CSS file to build my portfolio.
 
-Using VS Code, I:
+Using VS Code, I completed the following:
 
 * Created an HTML page using semantic HTML elements.
 * Created a CSS page and used flexbox to layout and organize elements on the page.
