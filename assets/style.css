@@ -4,250 +4,70 @@
 
 body {
     font-family: 'Epilogue', sans-serif;
-    background-color: #DCDCDC;
+    background-color: #000000;
     margin: 0 auto;
     padding: 0px 10px 0px 10px;
 }
 
 header {
     padding: 5px 20px 10px 0px;
-    background-color: #b4e0e8;
-    height: 180px;
-    width: 100%;
+    background-color: #000000;
+}
+
+.social-icon {
+    color: #ff6db7;
+    font-size: 5em;
+    display: inline-block;
+    padding: 10px;
+}
+
+.pdf {
+    font-size: 4.4em;
+}
+
+hr {
+    display: inline-block;
+    height: 2px;
+    width: 65%;
+    background-color: #ff6db7;
+}
+
+mark {
+    background-color: #7df9ff;
 }
 
 /*Styling for my name at the top of the page*/
-.my-name {
-    display: inline-block;
-    font-size: 42px;
+.my-name, h2 {
+    font-size: 40px;
     color: #ffffff;
-    background-color: #b67afe;
     padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    font-size: 30px;
-    float: right;
-}
-
-/*Adjusts size of the Nav menu when the screen size is less than 1075px.*/
-@media (max-width: 1075px) {
-    nav {
-        width: 100%;
-        margin: 0 auto;
-        font-size: 20px;
-        background-color: #b4e0e8;
-    }
-  }
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 25px;
-    border-bottom: 2px solid #ffffff;
 }
 
 a {
+    color: #ff6db7;
+}
+
+a:hover {
     color: #ffffff;
-    text-decoration: none;
 }
 
-/*Sets style for the 'Constantly Curious' subtitle*/
-.hero-subtitle {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-/*Adjusts sizing and margin of hero image and subtitle when screen size is less than 1075px.*/
-@media (max-width: 1075px) {
-    .hero-subtitle {
-      width: 100%;
-      margin: 0 auto;
-    }
-  }
-
-.hero-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    position: relative;
-}
-
-h2 {
-    position: absolute;
-    font-size: 38px;
+.card {
+    margin: 10px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
     color: #ffffff;
-    background-color: #b67afe;
-    padding: 20px;
-    margin-right: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
 }
 
-/*Adjusts appearance of 'Constant Curious' subtitle when screen size is less than 1075px.*/
-@media (max-width: 550px) {
-    h2 {
-        width: 70%;
-        text-align: center;
-        margin: 0 auto;
-    }
-  }
-
-.my-bio {
-    display: inline-flex;
-    height: 300px;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+.card-title {
+    color: #7df9ff;
 }
 
-/*Groups 'About Me', 'Work', and 'Contact Me' titles so that they can be aligned.*/
-article.section-titles {
-    width: 250px;
-    display: inline-flex;
-    justify-content: flex-end;
-    padding-left: 20px;
-}
-
-@media (max-width: 550px) {
-    article.section-titles {
-        display: inline-block;
-    }
-}
-
-.about-me-header {
-    height: 300px;
-}
-
-/*Adjusts height of the About Me border-right when screen is 550px or smaller.*/
-@media (max-width: 550px) {
-    .about-me-header {
-        height: 100px;
-    }
-}
-
-.subtitle {
-    border-right: 6px solid #b67afe;
-    color: #b67afe;
-    font-size: 60px;
-    padding: 20px;
-    text-align: right;
-}
-
-/*Adjusts font-size and appearance of 'About Me', 'Work' and 'Contact Me' when screen is 550px or smaller.*/
-@media (max-width: 550px) {
-    .subtitle {
-        font-size: 20px;
-        border-right: 0px solid #b67afe;
-        text-align: center;
-    }
-}
-
-.about-me-text {
-    display: inline-flex;
-    width: 60%;
-    margin: 40px 0px 50px 20px;
-    line-height: 1.5em;
-    flex: 1 1 0;
-}
-
-/*Styling for photo of myself.*/
-.my-face {
-    width: 30%;
-    height: 240px;
-    object-fit: cover;
-    margin: 10px 0px 50px 10px;
-    border: 8px solid #b4e0e8;
-    flex: 1 1 0;
-}
-
-.work {
-    display: inline-flex;
-    height: 800px;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-}
-
-.work-header {
-    height: 800px;
-}
-
-.project-pics {
-    display: inline-flex;
-    width: 60%;
-    height: 425px;
-    margin: 20px 0px 20px 0px;
-    line-height: 1.5em;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.figure {
-    height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 20px;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 40%;
-}
-
-.work-image {
-    border: 8px solid #b4e0e8;
-    width: 100%;
-    position: relative;
-    object-fit: cover;
-    flex: 1 1 0;
-}
-
-/*Makes first project picture larger than others.*/
-.big-picture {
-    width: 100%;
-    height: 90px;
-}
-
-/*Makes second and third project pictures the same size.*/
-.projectBC {
-    width: 100%;
-    height: 283px;
-    object-fit: cover;
-}
-
-/*Overlays caption on project pictures.*/
-.fig-caption {
-    position: absolute;
-}
-
-figcaption {
-    display: inline-block;
-    font-size: 30px;
-    color: #ffffff;
-    background-color: #b4e0e8;
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.contact-me {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex: 1 1 0;
-    margin-top: 50px;
-    justify-content: space-between;
-}   
-
-.contact-me a {
-    color: #b67afe;
-    border-bottom: 2px solid #b67afe;
+.card-link:hover {
+    color: #7df9ff;
 }
 
 footer {
     text-align: center;
+    color: #ffffff;
 }

@@ -3,76 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Teisha McRae's Web App Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1 class="my-name">Teisha McRae</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#my-bio">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="./assets/Teisha_McRae_Resume.pdf">Resume</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="container-fluid">
+        <span class="social-icon">
+            <a href="https://github.com/mcraeteisha"><i class="fab fa-github-square"></i></a>
+        </span>
+        <span class="social-icon">
+            <a href="https://www.linkedin.com/in/teishamcrae/"><i class="fab fa-linkedin"></i></a>
+        </span>
+        <span class="social-icon">
+            <a href="mailto: mcraeteisha@gmail.com"><i class="fas fa-envelope-square"></i></a>
+        </span>
+        <span class="social-icon">
+            <a href="tel:919-610-2870"><i class="fas fa-phone-square-alt"></i></a>
+        </span>
+        <span class="social-icon pdf">
+            <a href="./assets/teisha_mcrae_resume.pdf" download><i class="fas fa-file-pdf"></i></a>
+        </span>
+        <span><hr></span>
+        <br>
+        <h1 class="my-name">
+            <p>Hi, there 👋🏾 </p>
+            <p>I'm <mark>Teisha McRae.</mark></p>
+            <p>I'm a <mark>Brand Manager</mark> and <mark>QA Lead.</mark></p>
+            <p>I'm passionate about building beautiful websites with <mark>sleek, responsive designs.</mark></p>
+        </h1>
     </header>
-    <section class="hero-subtitle">
-        <img class="hero-image" src="./assets/image1.jpg" alt="Code On A Screen">
-        <h2>Constantly Curious 👩🏾‍💻</h2>
-    </section>
-    <main>
-        <section class="my-bio" id="my-bio">
-            <article class="section-titles about-me-header">
-                <h1 class="subtitle">About Me</h1>
-            </article>
-            <article class="about-me-text">
-                <p>Hi there! 👋🏽 I'm Teisha. I'm a Brand Manager currently working for an Email Marketing Startup in Durham, NC. Working for a startup means I've had the opportunity to wear many hats at my current job. Because of my interest in tech, I began working with my company's product team as a QA Lead, working with our team of developers to identify and log system bugs, and assist with testing during Tech Releases. One of my proudest achievements thus far has been leading a Tech Release, serving as the coordinator, problem-solver, and decision maker during a Release. I'm looking forward to making a career transition into a full-time tech role as a Software Developer. When I'm not learnnig to code, you can find me reading, cooking up new recipes, and exploring new places.</p>
-                <img class="my-face" src="./assets/myface.jpg" alt="Teisha With Sunflowers">
-            </article>
-        </section>
-        <section class="work" id="work">
-            <article class="section-titles work-header">
-                <h1 class="subtitle">Work</h1>
-            </article>
-            <article class="project-pics">
-                <figure class="figure big-picture overlay">
-                    <a href="https://mcraeteisha.github.io/Horiseon-SEO-Accessibility-Website/">
-                        <img class="work-image" src="./assets/screenshot.png" alt="Horiseon SEO Website"></a>
-                    <figcaption class="fig-caption"><a href="https://mcraeteisha.github.io/Horiseon-SEO-Accessibility-Website/">Horiseon SEO</a></figcaption>
-                </figure>
-                <figure class="figure">
-                    <img class="work-image projectBC" src="./assets/image3.jpg" alt="Project Coming Soon">
-                    <figcaption class="fig-caption">Coming Soon</figcaption>
-                </figure>
-                <figure class="figure">
-                    <img class="work-image projectBC" src="./assets/image4.jpg" alt="Project Coming Soon">
-                    <figcaption class="fig-caption">Coming Soon</figcaption>
-                </figure>
-            </article>
-        </section>
-        <section class="contact-me" id="contact-me">
-            <article class="section-titles">
-                <h1 class="subtitle">Contact Me</h1>
-            </article>
-                <a href="tel:555-555-5555">555-555-5555</a>
-                <a href="mailto: mcraeteisha@gmail.com">mcraeteisha@gmail.com</a>
-                <a href="https://github.com/mcraeteisha">GitHub</a>
-                <a href="https://www.linkedin.com/in/teishamcrae/">LinkedIn</a>
-                <a href="https://www.instagram.com/teem_cee/">Instagram</a>
-        </section>
-        <footer><h3>Made with 💕 by Teisha McRae</h3></footer>
+    <main class="container-fluid">
+    <h2>What I've Been Working On</h2> 
+   <div class="row">
+        <div class="card col-sm-4" style="width: 18rem;">
+            <a href="https://gpphelps.github.io/Event-Listener/index.html" class="card-link"><img src="./assets/project-1-screenshot.png" class="card-img-top" alt="Event Listener() Project"></a>
+            <div class="card-body">
+              <h5 class="card-title">Event Listener()</h5>
+              <p class="card-text">Event Listener() is a mobile-first web application that helps users find events based on their current location or a searched location. </p>
+            </div>
+            <div class="card-body">
+              <a href="https://gpphelps.github.io/Event-Listener/index.html" class="card-link">Deployed Application</a>
+              <a href="https://github.com/Gpphelps/Event-Listener" class="card-link">Github Repo</a>
+            </div>
+        </div>  
+        <div class="card col-sm-4" style="width: 18rem;">
+            <a href="https://mcraeteisha.github.io/code-quiz/" class="card-link"><img src="./assets/codequiz-screenshot.png" class="card-img-top" alt="Code Quiz"></a>
+            <div class="card-body">
+              <h5 class="card-title">Code Quiz</h5>
+              <p class="card-text">Test your coding knowledge with this timed Coding Quiz that was built using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="card-body">
+              <a href="https://mcraeteisha.github.io/code-quiz/" class="card-link">Deployed Application</a>
+              <a href="https://github.com/mcraeteisha/code-quiz" class="card-link">Github Repo</a>
+            </div>
+        </div> 
+        <div class="card col-sm-4" style="width: 18rem;">
+            <a href="https://mcraeteisha.github.io/random-password-generator/" class="card-link"><img src="./assets/password-generator-screenshot.png" class="card-img-top" alt="Password Generator"></a>
+            <div class="card-body">
+              <h5 class="card-title">Random Password Generator</h5>
+              <p class="card-text">This Password Generator application allows employees to keep their sensitive data secure with passwords that meet specified criteria.</p>
+            </div>
+            <div class="card-body">
+              <a href="https://mcraeteisha.github.io/random-password-generator/" class="card-link">Deployed Application</a>
+              <a href="https://github.com/mcraeteisha/random-password-generator" class="card-link">Github Repo</a>
+            </div>
+        </div> 
+    </div>
     </main>
+    <footer><h5>Made with 💕 by Teisha McRae</h5></footer>
 </body>
 </html>
