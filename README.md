@@ -31,4 +31,9 @@ Some of the learnings I’m taking away from this project are:
 ## Author
 Teisha McRae
 
+Website Version 1
 ![Website Screenshot](https://user-images.githubusercontent.com/73713665/107868731-ac2ef980-6e54-11eb-96e5-13a030397468.png)
+
+Website Version 2
+![Website Screenshot](https://user-images.githubusercontent.com/73713665/121792560-90e6b780-cbc4-11eb-933f-b63af9adc231.png)
+![Website Screenshot](https://user-images.githubusercontent.com/73713665/121792571-cb505480-cbc4-11eb-8996-d7bb35ec2066.png)
